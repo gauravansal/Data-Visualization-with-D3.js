@@ -5,7 +5,7 @@ Dataset used in this project is [Loan Data from Prosper](https://www.google.com/
 
 Since, it is large dataset(which contains 81 variables), we have used R tool to perform data exploration,wrangling and cleaning to produce a smaller dataset to be used in this project. Smaller dataset(which contains 7 variables only) will help render the data visualization quickly and easily over web and tells a story highlighting trends and patterns in the data.
 
-Smaller dataset contains selected variables and outliers removed in a TSV file.
+[Smaller dataset](https://github.com/gauravansal/Data-Visualization-with-D3.js/blob/master/bar_chart_prosper_selected_variables_outliers_removed.tsv) contains selected variables and outliers removed in a TSV file.
 
 #### Summary
 Prosper Rating of a borrower depends upon the number of factors. And based upon the combination of Prosper Rating and values of the factors, a Borrower Rate is calculated for a borrower. Normally, higher the Prosper Rating, lower the Borrower Rate and vice-versa. Prosper rating and Borrower Rate are negatively correlated with each other. So, as Prosper rating of a borrower increases, Borrower Rate for the borrower lowers down and vice-versa. Rating 1 is the lowest and Rating 7 is the best. Prosper helps lends money to borrower for various Tenure. In this visualization, relationships between Prosper Rating & factors is shown. There is a separate bar chart for each of the factor with respect to Prosper Rating. 
@@ -39,12 +39,6 @@ Here, Length of a bar represents average value of a factor for that particular P
 
  A user can select a factor from the dropdown menu in order to have the bar chart for that particular selection. Since, the factor is changed, the Y-axis values changes accordingly depending upon the factor selected and a bar chart with different bar lengths is produced.
 ***
-#### Feedback
-1. It is not flexible. Add some filtering of the data so that user can choose the data.
-2. Reduce the transition duration to be more smooth rather than too fast and too slow.
-3. Add notes to the visualization in order to explain how visualization works and in understanding the basic idea behind the visualization.
-***
-
 #### Note - 
 To work on your data visualization, you will need to start a local web server on your computer. To learn more about why you need to start a local web server and ways of setting up a local web server, please read [Setting Up A Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server) from Scott Murray's book, Interactive Data Visualization for the Web.
 
